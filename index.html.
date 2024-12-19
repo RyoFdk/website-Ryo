@@ -9,3 +9,10 @@
     <h1>Aku mencintaimu!</h1>
 </body>
 </html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Romantic Website</title>
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500&family=Dancing+Script&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">  <!-- Menghubungkan file CSS -->
+</head>
