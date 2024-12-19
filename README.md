@@ -1,1 +1,0 @@
-# Selamat Malam, Sayang 💖
