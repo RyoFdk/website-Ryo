@@ -3,16 +3,62 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Website Romantis</title>
+    <title>Halaman Romantis</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+            background: url('https://www.w3schools.com/w3images/lights.jpg') no-repeat center center fixed;
+            background-size: cover;
+            color: white;
+        }
+
+        .container {
+            text-align: center;
+            padding: 50px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background: rgba(0, 0, 0, 0.5);
+            border-radius: 10px;
+            max-width: 500px;
+            width: 100%;
+        }
+
+        h1 {
+            font-size: 3em;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 1.2em;
+            margin-bottom: 30px;
+        }
+
+        .button {
+            padding: 15px 30px;
+            font-size: 1.2em;
+            color: white;
+            background-color: #e63946;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+        }
+
+        .button:hover {
+            background-color: #f1faee;
+            color: #e63946;
+        }
+    </style>
 </head>
 <body>
-    <h1>Aku mencintaimu!</h1>
+    <div class="container">
+        <h1>Selamat Malam, Sayang</h1>
+        <p>Semoga cinta kita selalu tumbuh seiring waktu. Aku selalu mencintaimu, kini dan selamanya.</p>
+        <a href="#" class="button">Aku Cinta Padamu</a>
+    </div>
 </body>
 </html>
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Romantic Website</title>
-  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500&family=Dancing+Script&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/styles.css">
-
