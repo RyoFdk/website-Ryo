@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Halaman Romantis</title>
+    <title>Untuk Idaa, Cinta Sejatiku 💖</title>
     <style>
         body {
             margin: 0;
@@ -12,29 +12,31 @@
             background: url('https://www.w3schools.com/w3images/lights.jpg') no-repeat center center fixed;
             background-size: cover;
             color: white;
+            text-align: center;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
         }
 
-        .container {
-            text-align: center;
-            padding: 50px;
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            background: rgba(0, 0, 0, 0.5);
+        .message-box {
+            background: rgba(0, 0, 0, 0.6);
+            padding: 30px;
             border-radius: 10px;
-            max-width: 500px;
+            max-width: 600px;
             width: 100%;
         }
 
         h1 {
             font-size: 3em;
+            color: #f1faee;
             margin-bottom: 20px;
         }
 
         p {
-            font-size: 1.2em;
+            font-size: 1.5em;
             margin-bottom: 30px;
+            color: #e63946;
         }
 
         .button {
@@ -55,10 +57,12 @@
     </style>
 </head>
 <body>
-    <div class="container">
-        <h1>Selamat Malam, Sayang</h1>
-        <p>Semoga cinta kita selalu tumbuh seiring waktu. Aku selalu mencintaimu, kini dan selamanya.</p>
-        <a href="#" class="button">Aku Cinta Padamu</a>
+
+    <div class="message-box">
+        <h1>Untuk Idaa, Cinta Sejatiku 💖</h1>
+        <p>Idaa, setiap detik bersamamu adalah anugerah terindah dalam hidupku. Cinta kita akan selalu tumbuh, selamanya.</p>
+        <a href="https://wa.me/yourphonenumber" class="button">Kirim Pesan Cinta</a>
     </div>
+
 </body>
 </html>
